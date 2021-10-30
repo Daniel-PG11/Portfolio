@@ -1,0 +1,29 @@
+.mobile__bg {
+    background: black;
+    height: 100vh;
+    transition: height 0.3s ease-out;
+}
+
+.header__bg {
+    padding-right: 5px;
+}
+
+.navheight {
+    height: 0px;
+    transition: height 0.3s ease-out;
+}
+
+@media screen and (max-width:767px) {
+   
+    .mobile_header {
+        display: block;
+        color: #fff;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mobile_header {
+        display: none;
+    }
+}
