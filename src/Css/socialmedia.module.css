@@ -1,0 +1,17 @@
+.socialMedia {
+    display: flex;
+    justify-content: start;
+    padding: 0 3rem;
+    margin: 1rem 0;
+}
+
+.icon {
+    margin: 0 .5rem;
+    font-size: 3rem !important;
+}
+
+.social h3 {
+    display: flex;
+    padding: 0 3rem;
+    font-family: 'Raleway-Bold';
+}

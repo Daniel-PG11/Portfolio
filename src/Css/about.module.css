@@ -1,0 +1,24 @@
+.about {
+    padding: 75px 0;
+}
+
+.about h2 {
+    font-family: 'Raleway-Bold';
+}
+
+.about__des {
+   padding: 2rem 5rem;
+   font-family: 'Raleway-Regular';
+   font-size: 20px;
+   line-height: 35px;
+}
+
+@media screen and (max-width:767px) {
+    .about__des {
+        padding: 2rem 3rem;
+    }
+    .about {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+}

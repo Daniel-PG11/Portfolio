@@ -24,7 +24,7 @@ function Skills() {
                     <h2>Skills</h2>
                 </div>
             <div className={classes.flex}>                
-                <div className ={classes.skills__bar}>
+                {/* <div className ={classes.skills__bar}>
                     <span>HTML</span>
                     <ProgressBar bgcolor="orange" progress='80'  height={10} />
                     <span>CSS</span>
@@ -35,24 +35,13 @@ function Skills() {
                     <ProgressBar bgcolor="orange" progress='85'  height={10} />
                     <span>React Redux</span>
                     <ProgressBar bgcolor="orange" progress='60'  height={10} />
-                </div>
+                </div> */}
                 <div className={classes.right}>
-                    <div className={classes.right__width}>
                         <img data-aos="fade-up" className={classes.skills__fade} src ={html}/>
-                    </div>
-                    <div className={classes.right__width}>
                         <img data-aos="fade-up" className={classes.skills__fade} src = {css} />
-                    </div>
-                    <div className={classes.right__width}>
                         <img data-aos="fade-up" className={classes.skills__fade} src = {js} />
-                    </div>
-                    <div className={classes.right__width}>
                         <img data-aos="fade-up" className={classes.skills__fade} src = {react} />
-                    </div>
-                    <div className={classes.right__width}>
                         <img data-aos="fade-up" className={classes.skills__fade} src = {redux} />
-                    </div>
-
                 </div> 
             </div>       
         </div>

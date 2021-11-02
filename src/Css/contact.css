@@ -1,0 +1,69 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    text-align: left;
+    font-family: 'Raleway-Regular';
+    margin: 3.5rem 0;
+}
+
+.left__div {
+    max-width: 28rem;
+}
+.right {
+    max-width: 36rem;
+    width: 100%;
+}
+
+.right p {
+    color: rgba(75,85,99,.7);
+    text-align: left;
+    font-family: 'Raleway-Regular';
+}
+
+.input {
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: .375rem;
+}
+
+.contact__div {
+    padding: 0 3rem;
+}
+
+.contact__div h1 {
+    text-align: left;
+}
+
+.textarea {
+    resize: none;
+    height: 118px;
+}
+
+::placeholder {
+    font-family: 'Raleway-Regular';
+    color: #c9ccd1;
+}
+
+.left__flex {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:767px) {
+    .contact {
+        flex-direction: column;
+    }
+    .left {
+        margin: 1rem 0;
+    }
+
+    .left__flex {
+        margin: 1.5rem;
+    }
+}
