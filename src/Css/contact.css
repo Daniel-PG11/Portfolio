@@ -21,6 +21,7 @@
     color: rgba(75,85,99,.7);
     text-align: left;
     font-family: 'Raleway-Regular';
+   
 }
 
 .input {
@@ -33,6 +34,7 @@
 
 .contact__div {
     padding: 0 3rem;
+    overflow: hidden;
 }
 
 .contact__div h1 {
@@ -55,6 +57,34 @@
     flex-direction: column;
 }
 
+.right__height {
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.rightp{
+    width: 50%;
+    margin-bottom: 0;
+    background: #47ffff;
+    padding: 12px 10px;
+    color: #111 !important;
+    font-family: 'Raleway-Bold';
+    border-radius: 25px;
+    text-align: center !important;
+    position: relative;
+    right: -354px;
+}
+
+.rightpanim {
+    animation: right_to_left 3s ease;
+}
+
+.rightzero {
+    animation: left_to_right 3s ease;
+}
+
 @media screen and (max-width:767px) {
     .contact {
         flex-direction: column;
@@ -66,4 +96,29 @@
     .left__flex {
         margin: 1.5rem;
     }
+    .rightp {
+        width: 100%;
+        margin-bottom : .5rem;
+    }
+    .btn-outline-primary {
+        margin-bottom : 1.5rem;
+    }
 }
+
+@keyframes right_to_left {
+    from {
+        right: -354px;
+    }
+    to {
+      right: 0;
+    }
+  }
+  
+  @keyframes left_to_right {
+    from {
+      right: 0;
+    }
+    to {
+      right: -354px;
+    }
+  }

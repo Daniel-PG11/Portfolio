@@ -3,14 +3,14 @@ import React from 'react'
 import '../Css/contact.css';
 
 
-function Input({type,placeholder}) {
+function Input({type,placeholder,name}) {
     return (
         <div>
             {type == "textarea" ? 
-                <textarea className= "input textarea" placeholder={placeholder}/>
+                <textarea className= "input textarea" name={name} placeholder={placeholder}/>
                 :
                 <input className= "input text"
-                type= {type} placeholder={placeholder} />
+                type= {type} name={name} placeholder={placeholder} />
         }
 
         </div>

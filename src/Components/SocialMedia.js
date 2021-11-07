@@ -11,7 +11,7 @@ const SocialMedia = () => {
         <div className={classes.social} >
             <h3>Talk to me at</h3>
             <div className={classes.socialMedia}>
-                <GitHubIcon className={classes.icon} />
+                <GitHubIcon className={classes.icon}  />
                 <InstagramIcon className={classes.icon} />
                 <LinkedInIcon className={classes.icon} />
             </div>
